@@ -53,8 +53,8 @@ export default {
     sendEmail() {
         console.log('Пытаюсь отправить')
       
-        emailjs.sendForm('service_rb61oka', 'template_y2ho7lq', this.$refs.form, 'GVKoHm9N8NzE6Yc0a')
-
+        emailjs.sendForm('xxxxxxxxxxx', 'xxxxxxxxxxx', this.$refs.form, 'xxxxxxxxxxxx') //here enter the data provided by the postal service
+        //warning! This code is valid only for the postal service mail.ru
        .then(() => {
             console.log('SUCCESS!')
           },

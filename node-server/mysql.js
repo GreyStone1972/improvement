@@ -2,9 +2,9 @@ let mysql = require('mysql2')
 const db_config = {
   host: 'localhost',
   user: 'root',
-  password: 'enotovid',
+  password: 'xxxxxxxxxx', //enter your password here
   port: "3306",// Use the 3306 -side number by default
-  database: 'blagoustroistvo2'// Use the database name you created, I use node_app here
+  database: 'blagoustroistvo2'// Use the database name you created, I use blagoustroistvo2 here
 }
 // Perform database interactions
 function conMysql(sql) {
