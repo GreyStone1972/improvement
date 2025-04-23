@@ -2,7 +2,7 @@ let mysql = require('mysql2')
 const db_config = {
   host: 'localhost',
   user: 'root',
-  password: 'xxxxxxxxxx', //enter your password here
+  password: 'enotovid', //password for my database
   port: "3306",// Use the 3306 -side number by default
   database: 'blagoustroistvo2'// Use the database name you created, I use blagoustroistvo2 here
 }
